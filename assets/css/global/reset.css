@@ -1,0 +1,15 @@
+/* Variáveis */
+:root {
+  --primary-color: #00FF08;
+  --primary-dark: #1f252e;
+  --animation-duration: 1s;
+  --animation-delay: 1s;
+}
+
+/* Reset de estilo padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+

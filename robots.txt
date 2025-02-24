@@ -1,0 +1,14 @@
+# Bloqueia todos os bots de acessar o site inteiro
+User-agent: *
+Disallow: /
+
+# Permite o acesso a todos os bots ao diretório /public
+User-agent: *
+Allow: /public/
+
+# Bloqueia o Googlebot de acessar uma pasta específica
+User-agent: Googlebot
+Disallow: /privado/
+
+# Permite o acesso de todos os bots ao sitemap
+Sitemap: https://www.exemplo.com/sitemap.xml

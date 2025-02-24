@@ -1,0 +1,49 @@
+/* Section 1 */
+.mode i {
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: var(--primary-color);
+    opacity: 0;
+    animation: rightSideAni 1.5s ease forwards;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(277px, 1fr));
+    row-gap: 4rem;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.main h3,
+.main h1,
+.main p {
+    opacity: 0;
+}
+
+.main h3 {
+    font-size: 1.5rem;
+    animation: topSideAni var(--animation-duration) ease forwards;
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    animation: leftSideAni var(--animation-duration) ease forwards;
+    animation-delay: var(--animation-delay);
+}
+
+.main p {
+    line-height: 1.7;
+    font-size: 1.35rem;
+    animation: topSideAni 1.5s ease forwards;
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+    margin-top: 1.7rem;
+}
+
