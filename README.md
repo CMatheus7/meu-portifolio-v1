@@ -9,20 +9,6 @@ CSS3 (Incluindo arquivos de estilo personalizados)
 JavaScript
 Bootstrap Icons & Boxicons (Ícones)
 
-📁 src  
- ├── 📁 css  
- │   ├── estilo.css  
- │   ├── fontes.css  
- │   ├── reset.css  
- │   ├── responsivo.css  
- ├── 📁 img  
- │   ├── img.png  
- │   ├── outras imagens...  
- ├── 📁 js  
- │   ├── main.js  
-└── index.html
-
-
 🎨 Recursos Implementados
 ✅ Modo Escuro
 ✅ Design Responsivo
